@@ -1,0 +1,48 @@
+@media screen and (max-width: 60rem) {
+  nav .menubtn {
+    display: flex;
+  }
+
+  nav .main-nav-links {
+    display: none;
+  }
+
+  .sideNav {
+    display: block !important;
+  }
+
+  .sideNav button:hover,
+  .sideNav button:active {
+    color: white;
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 98rem) {
+  .column h1 {
+    font-size: 4rem;
+  }
+  .column p {
+    font-size: 1.7rem;
+  }
+  .column {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 60rem) {
+  .column {
+    width: 35rem;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-left: 0;
+    padding: 3rem;
+  }
+  .column h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .column p {
+    font-size: 2rem;
+  }
+}
